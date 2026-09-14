@@ -24,4 +24,4 @@ def volatility(returns):
 
 def cumulative(returns):
     """Cumulative simple return series."""
-    return (1 + returns).cumprod() - 1
+    return (1 + returns).cumprod() - 10
